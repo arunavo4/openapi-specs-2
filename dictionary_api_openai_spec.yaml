@@ -9,6 +9,7 @@ paths:
   /entries/en/{word}:
     get:
       description: Search the dictionary in the API for the given word and return all matched results
+      operationId: searchWord
       parameters:
         - name: word
           in: path
